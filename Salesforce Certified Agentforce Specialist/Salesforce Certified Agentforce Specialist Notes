@@ -87,3 +87,136 @@ LLMs vary by size, but they typically contain billions of parameters. Parameters
 Einstein Trust Layer is a sequence of gateways and retrieval mechanisms that work together to enable trusted and open generative AI.
 ===
 
+Explore Salesforce AI
+=====
+Data Fundamentals for AI
+===
+Data-driven decision-making is a process of making decisions based on data analysis rather than intuition or personal experience.
+
+Key Benefits
+  Provides insights
+  Improves performance
+  Increases competitiveness
+
+Key applications of AI across industries
+  Healthcare
+  Finance
+  Manufacturing
+
+Data Classification
+  Structured data
+  Unstructured data
+  Semi-structured data
+Data Format
+  Tabular data
+  Text data
+  Image data
+  Geospatial data
+  Time-series data
+Types of Data
+  Quantitative data
+  Qualitative data
+
+Important steps in data analysis
+Data collection
+Data labeling
+Data cleaning
+
+Techniques for Data collection
+  Surveys
+  Interviews
+  Observation
+  Web scraping
+
+Exploratory data analysis (EDA) - learn about general patterns in data and understand the insights and key characteristics about it.
+
+Areas of consideration that highlight the importance of data and data quality in AI
+  Training and performance
+  Accuracy and bias
+  Generalization and robustness
+  Trust and transparency
+  Data governance and compliance
+
+The data lifecycle includes collection, storage, processing, analysis, sharing, retention and disposal.
+
+Artificial Intelligence Technologies
+  Machine learning uses various mathematical algorithms to get insights from data and make predictions.
+  Deep learning uses a specific type of algorithm called a neural network to find associations between a set of inputs and outputs. Deep learning becomes more effective and efficient as the amount of data increases.
+  Natural language processing is a technology that enables machines to take human language as an input and perform actions accordingly.
+  Large language models are advanced computer models designed to understand and generate humanlike text.
+  Computer vision is technology that enables machines to interpret visual information.
+  Robotics is a technology that enables machines to perform physical tasks.
+
+Machine learning (ML) classification
+  Supervised learning
+  Unsupervised learning
+  Reinforcement learning
+
+Limitations of Machine Learning
+  Overfitting occurs when the model is too complex and fits the training data too closely, resulting in poor generalization.
+  Underfitting occurs when the model is too simple and does not capture the underlying patterns in the data.
+  Bias occurs when the model is trained on data that is not representative of the real-world population.
+
+Machine learning is limited by the quality and quantity of data used, lack of transparency in complex models, difficulty in generalizing to new situations, challenges with handling missing data, and potential for biased predictions.
+
+Predictive AI
+  Can make accurate predictions based on labeled data
+  Can be used to solve a wide range of problems, including fraud detection, medical diagnosis, and customer churn prediction
+  Limited by the quality and quantity of labeled data available
+  May struggle with making predictions outside of the labeled data it was trained on
+  May require significant computational resources to train and deploy
+Generative AI
+  Can generate new and creative content
+  Can be used in a wide range of creative applications, such as art, music, and writing
+  Can generate biased or inappropriate content based on the input data
+  May struggle with understanding context or generating coherent content
+  May not be suitable for all applications, such as those that require accuracy and precision
+
+Limitations of Generative AI
+may generate biased or inappropriate responses based on the data it was trained on.
+may also struggle with understanding user input context or generating coherent responses
+
+Data Lifecycle for AI
+  Data collection: In this stage, data is collected from various sources, such as sensors, surveys, and online sources.
+  Data storage: Once data is collected, it must be stored securely.
+  Data processing: In this stage, data is processed to extract insights and patterns. This may include using machine learning algorithms or other data analysis techniques.
+  Data use: Once the data has been processed, it can be used for its intended purpose, such as making decisions or informing policy.
+  Data sharing: At times, it may be necessary to share data with other organizations or individuals.
+  Data retention: Data retention refers to the length of time that data is kept.
+  Data disposal: Once data is no longer needed, it needs to be disposed of securely. This may involve securely deleting digital data or destroying physical media.
+
+Some examples of ethical issues in data collection and analysis
+  Privacy violations
+  Data breaches
+  Bias
+
+Strategies to promote data privacy and confidentiality
+  Encryption
+  Anonymization
+  Access controls
+
+Addressing bias and promoting fairness requires a range of strategies
+  Diversifying data sources
+  Improving data quality
+  Conducting bias audits
+  Incorporating fairness metrics
+  Promoting transparency
+
+Data protection laws and regulations
+  The California Consumer Privacy Act (CCPA): A set of regulations that apply to companies that do business in California and collect the personal data of California residents.
+  The Health Insurance Portability and Accountability Act (HIPAA): A set of regulations that apply to healthcare organizations and govern the use and disclosure of protected health information in the United States.
+  The General Data Protection Regulation (GDPR): A set of regulations that apply to all organizations that process the personal data of European Union residents.
+  European Union Artificial Intelligence Act (EU AI Act): Comprehensive AI regulations banning systems with unacceptable risk and giving specific legal requirements for high-risk applications.
+
+Best Practices for Data Lifecycle Management
+  Implementing data governance policies and procedures to ensure that data is collected and used in a responsible and ethical manner
+  Conducting regular audits and assessments to identify any weaknesses or vulnerabilities in the data lifecycle
+  Ensuring that the data is accurate, complete, and representative of the target population
+  Ensuring that data is stored securely, and that access is granted only to authorized users
+  Ensuring that data is used only for its intended purpose and is shared only in a responsible and ethical manner
+  Placing appropriate safeguards to protect the data
+  Ensuring that data retention policies are in place and that data is securely deleted once it’s no longer needed
+
+The Einstein Trust Layer is a secure AI architecture, built into the Salesforce platform. It’s a set of agreements, security technology, and data and privacy controls used to keep your company safe while you explore generative AI solutions.
+===
+
