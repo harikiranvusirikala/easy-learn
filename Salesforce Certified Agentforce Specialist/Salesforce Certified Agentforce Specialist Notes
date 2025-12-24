@@ -19,3 +19,71 @@ https://help.salesforce.com/s/
 *** https://www.salesforce.com/news/press-releases/2024/10/29/agentforce-general-availability-announcement/
 Agentforce, a new layer on the Salesforce Platform that enables companies to build and deploy AI agents that can autonomously take action across any business function.
 
+
+Get Started with Artificial Intelligence Basics
+===
+Main Types of AI Capabilities
+  Language Processing
+  Numeric Predictions
+  Classifications
+  Robotic Navigation
+  AI Models and Neural Networks
+
+Artificial intelligence is the ability for a computer to perform skills typically associated with human intuition, inference, and reasoning. Many of these skills fall into broad categories like numeric predictions and language processing that are making their way into our lives through AI that supports our business use cases, educational needs, and industrial purposes.
+
+Possibilities of Language Models (LLMs)
+  Summarization
+  Translation
+  Error Correction
+  Question Answering
+  Guided Image Generation
+  Text-to-Speech
+
+Factors
+  availability of huge amounts of training data
+  better training
+  computational power
+
+Common Concerns About Generative AI
+  Hallucinations
+  Data Security
+  Plagiarism
+  User Spoofing
+  Sustainability
+
+Generative AI is capable of assisting businesses and individuals alike with all sorts of language-based tasks. The convergence of lots of data, clever AI architecture, and huge amounts of computing power has supercharged generative AI development and the growth of the AI ecosystem.
+
+Data processed from unstructured to structured is called natural language understanding (NLU).
+Data processed the reverse way–from structured to unstructured–is called natural language generation (NLG). NLG is what enables AI assistants to generate human-like language.
+Neural networks recognize patterns, words, and phrases to make language processing exponentially faster and more contextually accurate.
+
+Elements of natural language in English include:
+  Vocabulary: The words we use
+  Grammar: The rules governing sentence structure
+  Syntax: How words are combined to form sentences according to grammar
+  Semantics: The meaning of words, phrases, and sentences
+  Pragmatics: The context and intent behind cultural or geographic language use
+  Discourse and dialogue: Units larger than a single phrase or sentence, including documents and conversations
+  Phonetics and phonology: The sounds we make when we communicate
+  Morphology: How parts of words can be combined or uncombined to make new words
+
+Syntactic parsing may include:
+  Segmentation
+  Tokenization
+  Stemming
+  Lemmatization
+  Part of speech tagging
+  Named entity recognition (NER)
+
+Common analysis techniques, used in extracting valuable insights from text and speech data, that are used in NLP:
+  Sentiment analysis
+  Intent analysis
+  Context (discourse) analysis
+
+LLMs are advanced computer models designed to understand and generate human-like text. They're trained on vast amounts of text data to learn patterns, language structures, and relationships between words and sentences.
+
+LLMs vary by size, but they typically contain billions of parameters. Parameters are the factors that the model learns during its training process, building the model’s understanding of language.
+
+Einstein Trust Layer is a sequence of gateways and retrieval mechanisms that work together to enable trusted and open generative AI.
+===
+
