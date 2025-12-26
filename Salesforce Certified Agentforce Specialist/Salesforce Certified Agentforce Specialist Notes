@@ -330,3 +330,46 @@ Audit Trail
 Typically, OpenAI wants to retain prompts and prompt responses for a period of time to monitor for abuse. OpenAI’s incredibly powerful LLMs check to see if anything unusual is happening to their models—like the prompt injection attacks that you learned about in the last unit. But our zero data retention policy prevents the LLM partners from retaining any data from the interaction. We arrived at an agreement where we handle that moderation.
 ===
 
+Autonomous Agents
+===
+Key Components
+  Data
+  Decision-Making
+  Action Execution
+  Learning and Adaptation
+
+Industries where Autonomous Agents bring significant benefits and support to CRM platforms
+  Healthcare
+  Financial Services
+  Insurance
+  Retail
+
+Guardrails for Safe and Trusted Autonomous Agents
+  Define Clear Boundaries
+  Implement Robust Security Measures
+  Monitor and Audit
+  Integrate Human Oversight
+  Ensure Transparency
+  Test Thoroughly
+  Continuous Learning and Improvement
+
+Common use cases where autonomous agents can help
+  Customer support: They can handle a wide range of customer queries, from simple FAQs to more complex issues that do not require human oversight. This frees up your human representatives to focus on the trickier stuff that needs a personal touch.
+  Order management: They can process orders, track shipments, handle returns, and even send automated updates to keep customers in the loop.
+  Lead generation: They can engage with potential customers, gather contact information, and qualify leads. This helps you capture more leads and convert them into sales.
+  Personalized recommendations: By analyzing customer data, they can offer personalized product or service recommendations, enhancing the customer experience and boosting sales.
+  Scheduling and reservations: They can manage appointments, reservations, and bookings, making it easier for customers to schedule their time and reducing the workload on your staff.
+  Feedback collection: They can collect and analyze customer feedback, helping you identify areas for improvement and make data-driven decisions.
+  Internal processes: They can streamline internal tasks like HR inquiries, IT support, and employee onboarding, making your team more efficient and productive.
+
+Trusted and Secure
+Powerful and Versatile
+Grounded in Unified Data
+
+A Beginner’s Roadmap to Integrating Salesforce Autonomous Agents
+  Think Big, Start Smart: Plan Your Strategy
+  Design with Flair: Build Your Agent
+  Put It to the Test: Test Your Agent
+  Go Live and Celebrate: Launch Your Agent
+===
+
