@@ -410,3 +410,53 @@ The Atlas Reasoning Engine transforms AI from reactive to reasoning. It listens,
 ===
 =====
 
+
+Meet Agentforce
+=====
+Agentforce is a proactive, conversational AI solution, made up of autonomous agents, that sits on the Salesforce Platform.
+An autonomous agent is an advanced type of AI that can understand and respond to inquiries, then take action, with or without human intervention. When an agent is given an objective, they can generate tasks for themselves, anticipate next steps, change course based on user input, and initiate new tasks within the use cases and guardrails you set up.
+
+Things agents need to get work done
+  Data
+  Reasoning - Atlas Reasoning Engine
+  Actions
+  Topics
+  Channels
+
+Types of Jobs Can Agentforce Perform
+  Standard Agents
+    Agentforce for Employees: This is an agent you can customize for your employees to help them access information, summarize relationships, forecast revenue, all in the flow of work.
+    Agentforce Sales Development Rep (SDR): If you’re looking to boost your business’s bottom line, this agent can keep leads engaged around the clock, fielding questions and even objections while streamlining the tasks needed to keep reps operating at their best. Examples include using CRM and external data to schedule meetings so that sellers can keep their focus on closing deals. Need to tackle some admin? Agents can help there as well.
+    Agentforce for Setup: Can help find documentation and customize your org with a low-code promptable partner.
+    Agentforce Service Agent: Can be used to provide your customers with personalized interactions, common answers, and a support path for escalation.
+  Custom Agents
+
+Agentforce is a customizable suite of autonomous and assistive artificial intelligence (AI agents). AI agents are goal-oriented AI applications that perform tasks and business interactions.
+
+Agentforce Characteristics
+  Trusted
+  Natural Language
+  Dynamic Information Retrieval
+
+Agentforce has four basic components: the agent, topics, actions, and the reasoning engine.
+Agent
+  Agentforce Employee Agent: Help your employees across a wide range of workflows and tasks by giving them access to the Employee Agent, which is seamlessly built into the Salesforce interface.
+  Agentforce Sales Coach: Offer personalized coaching to help your sales reps handle challenging conversations and improve performance.
+  Agentforce for Service: Support your customers intelligently by resolving common inquiries autonomously and processing incoming cases.
+  Agentforce SDR: Scale your sales team and make the most of your pipeline by handling new or updated leads, sending customized intro emails, responding to replies, and connecting qualified leads with sales reps.
+Topics: Topics include natural-language instructions that tell the agent how to make decisions and what it should and shouldn’t do.
+  Standard and Custom Topics
+Actions: Topics also contain a set of actions, which are the tools the agent uses to do its job. Like topics, actions also include a set of instructions. Action instructions are crucial because they tell the agent what the action does.
+  When a user asks a question or makes a request, your agent picks the relevant topic and launches the appropriate actions within that topic. This focuses your agent on the most relevant actions and data for the current conversation.
+  Standard and Custom Actions
+    Query Records (Beta)
+    Summarize Record
+    Draft or Revise Email
+    Answer Questions with Knowledge
+    Ref - https://help.salesforce.com/s/articleView?id=ai.copilot_actions_ref.htm
+Reasoning Engine
+  Interpret the user’s request
+  Build a plan for accomplishing the goal
+  Use data to change behavior and respond to the user
+===
+
