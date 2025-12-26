@@ -220,3 +220,96 @@ Best Practices for Data Lifecycle Management
 The Einstein Trust Layer is a secure AI architecture, built into the Salesforce platform. It’s a set of agreements, security technology, and data and privacy controls used to keep your company safe while you explore generative AI solutions.
 ===
 
+Data + AI + CRM: Quick Look
+===
+Building your AI strategy with these principles in mind
+  Build trust
+  Ready your technology
+  Empower your people
+===
+
+Prompt Fundamentals
+===
+Basic Ingredients of a Prompt
+  Participants - Describe who’s sending and receiving the model’s output.
+  Setting - Give the model contextual information.
+  Goal - Describe what you hope to achieve with the model’s output.
+  Relationships - Describe the relationship between the participants involved. Also mention how the model’s output relates to the participants.
+  Data - Give the model data to work with.
+  Instructions - Tell the LLM what type of content you want and what it must include.
+  Limits - To prevent hallucinating, give the model guardrails that it must stay within.
+  Language  -Tell the model what language to generate output in.
+  Style & Tone - Give the model style and tone guidelines to follow.
+
+Example
+==
+You are a world-renowned cake decorator and you have a well-loved bakery known for its cakes. You also have a popular blog read by your customers. Your customers include families, newlyweds, and children. Your customers have a sweet tooth and are always curious about new cakes you make with fresh methods. You are writing your latest blog post. You want to capture customers’ attention while teaching them about unique decorating techniques.
+
+You must follow the given instructions. You must not address any content or generate answers that you don’t have data on or basis for.
+
+Instructions:
+
+Write an informative article about cake decorating fundamentals. Include a comprehensive analysis of different cake decorating techniques. Discuss the tradeoffs and explore the challenges of different techniques. Include a call to action to see the techniques in action by trying my new cake that incorporates all of the techniques discussed in the blog post.
+
+Write the blog in English. The blog must be written at an 8th grade reading level and leverage adjectives to evoke imagery in the prose. Use brief, declarative sentences in an active voice. Strictly avoid using filler words, slang, and redundant language. The blog must be less than 600 words.
+
+Now, write the blog post.
+==
+
+Example Prompt Template
+==
+You are a world-renowned {role} and you have a popular blog read by millions of readers worldwide. Your readers enjoy learning about {topic} from your blog. You are writing your latest blog post. Your readers include {target audiences}. You want to captivate your readers' attention and spark their interest in learning {topic}.
+
+You must follow the given instructions. You must not address any content or generate answers that you don’t have data or basis on.
+
+Instructions:
+
+Write an informative article about {subtopic}. Include a comprehensive analysis of {subjectA}. Discuss the tradeoffs and explore the challenges of {subjectB}. Include a call to action to try {product} that {description}.
+
+Write the blog in English. The blog must be written at an 8th grade reading level and leverage adjectives to evoke imagery in the prose. Use brief, declarative sentences in an active voice. Strictly avoid using filler words, slang, and redundant language. The blog must be less than 600 words.
+
+Now, write the blog post.
+==
+
+Use merge fields to connect your prompt templates to Salesforce record fields, such as from sales or service records.
+Use Flow Builder to create dynamic prompt fragments that go way beyond linking record fields. Flows let you add complex logic to a prompt that helps you include exactly the data you need.
+
+Ask the Right Questions when preparing Prompt Template
+  Who is involved, and how are they related? [Key Ingredients: Participants, relationships, data]
+  What are you trying to accomplish? [Key Ingredients: Goal, instructions]
+  What is the context? [Key Ingredients: Setting, tone & style, language]
+  What are the constraints? [Key Ingredients: Limits, instructions]
+
+Prompt Builder
+Templates
+  Sales Email prompt templates - help your team draft truly personalized emails for your customers, products, and events based on record data.
+  Field Generation prompt templates - bring generative AI-assisted workflows to custom fields within a Salesforce record.
+  Record Summary prompt templates - create a rich-text summary for a Salesforce record based on the record’s data.
+  Flex prompt templates - generate content for business purposes not covered by other prompt template types, allowing you to define your own resources.
+
+Grounding is a technique used in large language models to provide external, verifiable information to the model, which helps ensure that the prompt responses are accurate, relevant, and specific to the given context, rather than relying solely on the model's pre-existing training data.
+
+To create a sales email prompt template in Prompt Builder, you need the Einstein for Sales, Einstein for Platform, or Einstein for Service add-on.
+
+Use merge fields, Apex, and Flow as resources to enable Prompt Builder to securely access Salesforce data.
+
+If you want to use data from a SOQL query or an external API in your prompt, consider Apex. Apex is also effective if you want to generate well-formatted JSON or do programmatic data filtering.
+
+With the help of Lightning App Builder (LAB), an Einstein button (“Einstein button icon”) can trigger an assigned prompt template to send a prompt to the LLM and return a response back to the specific field.
+
+Flow Builder, admins can create Template-Triggered Prompt Flows to incorporate complex logic in prompt templates without writing any code.
+
+Considerations After Generating a Prompt Response / Guardrails
+  Topical Relevance - The model’s response must be grammatically correct within the ongoing conversation and directly relevant with the overall request in the prompt.
+  Action/Goal Completion - Assess if the response aligns with the intended action, fulfills the goal of the prompt, and satisfies the user's need by addressing everything the prompt requests.
+  Register/Tonal Appropriateness - When evaluating model output, consider whether the tone of voice or style is appropriate for the interaction between the response and the user. Ensure the vocabulary, punctuation, and style fit the needs of your end user.
+  Factual Accuracy - When reviewing model output, watch for inaccuracies or hallucinations. Check if it correctly uses prompt data and avoids including unintended specifics.
+  Repetition - Consider the extent of variation in the response for your specific use case. Evaluate whether it meets your expectations. Consider if repetitive vocabulary is acceptable for tighter compliance. Also, decide if it’s OK if multiple responses sound the same or use the same terms.
+  Toxicity - Review the response for any potentially harmful content, such as offensive, disrespectful, or abusive language that could negatively impact the user experience.
+  Bias/Ethics "Verify that the response promotes fairness and inclusivity.
+  Examine the response for subtle biases in language. Ensure it doesn’t:
+    Assume gender identity based on their name alone.
+    Sideline participants with disabilities.
+    Display assumptions about race or socioeconomic status."
+===
+
