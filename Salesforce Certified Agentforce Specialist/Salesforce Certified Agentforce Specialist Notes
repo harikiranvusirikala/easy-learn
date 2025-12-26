@@ -373,3 +373,40 @@ A Beginner’s Roadmap to Integrating Salesforce Autonomous Agents
   Go Live and Celebrate: Launch Your Agent
 ===
 
+Reasoning in Artificial Intelligence
+===
+Three types of reasoning.
+  Deduction: “All fruits have seeds. A mango is a fruit. Therefore, a mango has seeds.” (Starts with a general rule and applies it to a specific case.)
+  Induction: “The last five meetings started late. So, the next one will probably start late too.” (Looks at patterns in past experience to make a general prediction.)
+  Abduction: “The lights are off and no one's answering the door—so they’re probably not home.” (Takes the best guess based on limited clues.)
+
+Four popular strategies that guide LLMs
+  Breaking problems into steps (CoT), interacting with feedback (ReAct), exploring multiple options (ToT), or simulating future states (RAP), each approach makes AI feel a little more like human reasoning–only faster!
+
+How Agentforce Deploys LLM Reasoning
+Here’s what happens step by step.
+  A user types in a request, for example,“Build a webpage.”
+  Agentforce sends that input to a secure LLM using a carefully designed prompt. This helps the LLM translate the user’s input into a defined need that the AI understands.
+  Once the intent is clear, another prompt asks the LLM to create a plan to get it done.
+  The LLM responds with a step-by-step plan. This plan is built only from actions that an agent is allowed to take, ensuring safe and trusted behavior.
+  The agent follows the steps, executes the actions in the right order, and delivers the result back to the user.
+
+Agentforce gives companies a bold new capability: It turns large language models into real-time reasoning engines. That means AI isn’t just answering questions, it’s making sense of complex scenarios, planning next steps, and taking action.
+
+Atlas Reasoning Engine is the “brain” behind Agentforce, the agentic layer of the Salesforce Platform.
+
+4 key concepts
+  Reason–act–observe Loop (ReAct): Atlas uses a cycle of reasoning, acting, and observing. It thinks through a step, takes action, checks the outcome, and loops until it completes the user’s goal. If needed, it even asks for clarification mid-task. This keeps conversations natural and accurate.
+  Topic classification: Every request is mapped to a topic, which serves as the AI’s job description for that moment. Topics define what actions are valid and which policies apply. This helps Atlas scale safely across thousands of scenarios.
+  Richer conversations: Unlike earlier bots, Atlas allows Agentforce to respond in natural language, handle follow-up questions, and pull from past conversational context. The result? A smoother, more human-like interaction.
+  Visible reasoning: Atlas shares its "thoughts"–the reasoning behind why it acted a certain way–so that admins can review decisions, prevent errors, and build trust. You can access those insights in Agent Builder.
+
+3 key capabilities
+  Proactive actions: Agents don’t wait for you; they can trigger actions when CRM data changes, or an email arrives, or a meeting is upcoming.
+  Dynamic information retrieval: Atlas pulls in the most relevant data–both structured and unstructured–from Salesforce Data 360, web searches, or internal docs. That means more accurate responses and richer actions from AI agents.
+  Seamless human handoff: If Atlas hits a tough question or a strict business rule, it smoothly hands the conversation to a real human, so there's no drop in customer experience.
+
+The Atlas Reasoning Engine transforms AI from reactive to reasoning. It listens, thinks, decides, and acts with purpose. It retrieves smart data, adapts to changes, involves users when needed, and explains its choices.
+===
+=====
+
