@@ -313,3 +313,20 @@ Considerations After Generating a Prompt Response / Guardrails
     Display assumptions about race or socioeconomic status."
 ===
 
+The Einstein Trust Layer
+===
+Dynamic Grounding
+Semantic Search
+Data Masking
+  Data masking for LLMs is currently disabled for agents.
+  For embedded generative AI features, such as Einstein Service Replies, Einstein Work Summaries data masking is available.
+Prompt Defense
+  can help protect from prompt injection(get around restrictions and attempt to perform tasks or manipulate the model’s output in ways that the model wasn’t designed to handle.) attacks and decrease the likelihood of data being compromised.
+Toxic Language Detection
+Data Demasking
+Feedback Framework
+Audit Trail
+
+Typically, OpenAI wants to retain prompts and prompt responses for a period of time to monitor for abuse. OpenAI’s incredibly powerful LLMs check to see if anything unusual is happening to their models—like the prompt injection attacks that you learned about in the last unit. But our zero data retention policy prevents the LLM partners from retaining any data from the interaction. We arrived at an agreement where we handle that moderation.
+===
+
