@@ -460,3 +460,50 @@ Reasoning Engine
   Use data to change behavior and respond to the user
 ===
 
+Agentforce Builder Basics
+===
+Introduction to Agentforce Builder
+- https://trailhead.salesforce.com/content/learn/modules/introduction-to-agent-builder
+
+Agentforce Builder is the low-code tool where you build your Agentforce and choose options that define each agent’s role, unique skills, access, and settings that qualify them for the jobs you want them to do.
+
+Agentforce Builder helps you create and deploy your Agentforce to the places your employees or customers need them, like Slack, your CRM, or your website.
+
+From Agentforce Studio, you can view your Agent Actions library, access your agents and learning resources, or launch the Agentforce Testing Center.
+
+Agentforce Builder guides you through four screens
+  Select Type: Choose a preconfigured agent type that aligns with the skills your agent needs to do its job. Or create a brand-new agent from scratch. The agent type you select influences the topics and actions available to your agent.
+  Review Topics: Add or remove predefined topics, which are the categories of jobs an agent can do. Some topics include predefined actions, which are the individual tasks or jobs your agent is able to perform, like processing an order return, or summarizing an account. Actions can call flows, prompt builder templates, or invocable Apex.
+  Define Settings/Customize Your Agent: Name and describe your agent, define its role, and tell the agent about your company. Select an agent user that has the necessary permissions to access the information it needs to do its job. You can configure permissions for a new agent user in User Settings. You can also enrich event logs with conversation data to help you test and troubleshoot your agent.
+  Select Data: If Data 360 is enabled in your org, you can choose to upload data like your knowledge articles, or other information for your agents to reference to provide more personalized responses. However, many kinds of agents don’t require data at all.
+
+Customize
+  Topics and Actions
+  Language Settings (Beta) - language and tone
+  View Event Logs
+  Explore Agent Details
+    System Messages: Define the greeting users see at the start of a conversation and what to say if a system error occurs.
+    Setup Checklist: Review this checklist before activating so that your agent is deployed. This helps make sure you haven’t forgotten crucial steps.
+
+Topic Configuration
+  Classification Description: Tells the agent when to use a topic. The Agentforce reasoning engine can detect user intent and call a topic that aligns with that intent.
+  Scope: Defines what an agent is able to do within the parameters of this topic.
+  Instructions: Provides details of the job the agent performs. Instructions can also act as guardrails for the agent to work within.
+
+  Eg:
+  Classification Description: Handles requests from clients who want to talk to a human Event Planner to plan a new event.
+  Scope: Your job is to ask the client for details about the event they want to plan so that a human event planner can follow up.
+  Instructions: If a user explicitly asks to transfer to an event planner, tell them no event planners are available and offer instead to create a case for the events team to review.
+
+Asset Library is a list of standard topics that can be included with the Agentforce Service Agent.
+
+Options in Left panel in Agent Builder
+  Topics: Review topics, add or remove topics, view actions assigned to a topic, and edit topic details and instructions.
+  Data: Upload documents or knowledge articles to personalize your agent’s interactions. Data 360 is required to use this feature.
+  Connections: Add your agent to multiple channels and manage their settings.
+  Context: View and edit variables and session context that power your agent.
+  Language: Set the default language and other languages your agent can respond with. Change the tone of the conversation to match your business style.
+  Events: View session data to test or troubleshoot your agent. When you create an agent and check the “Keep a record of conversations with Enhanced Event Logs to review agent behavior” setting, this button lets you see additional details, including the prompt the user entered and the agent’s response.
+  Checklist: A step-by-step agent readiness checklist so you can make sure your agent is ready to deploy.
+===
+
