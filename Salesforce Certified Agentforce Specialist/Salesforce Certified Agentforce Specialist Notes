@@ -15,6 +15,8 @@ Recommended - https://trailhead.salesforce.com/agentblazer
   (https://trailhead.salesforce.com/superbadges)
   (https://trailhead.salesforce.com/modules)
 https://help.salesforce.com/s/
+https://help.salesforce.com/s/cases
+Dreamforce Main Keynote 2025 - https://youtu.be/Gce2DhADtK4
 
 *** https://www.salesforce.com/news/press-releases/2024/10/29/agentforce-general-availability-announcement/
 Agentforce, a new layer on the Salesforce Platform that enables companies to build and deploy AI agents that can autonomously take action across any business function.
@@ -413,6 +415,8 @@ The Atlas Reasoning Engine transforms AI from reactive to reasoning. It listens,
 
 Meet Agentforce
 =====
+Introduction to Agentforce
+===
 Agentforce is a proactive, conversational AI solution, made up of autonomous agents, that sits on the Salesforce Platform.
 An autonomous agent is an advanced type of AI that can understand and respond to inquiries, then take action, with or without human intervention. When an agent is given an objective, they can generate tasks for themselves, anticipate next steps, change course based on user input, and initiate new tasks within the use cases and guardrails you set up.
 
@@ -576,5 +580,11 @@ Agentforce for Sales Coaching - Ideal for the manager with a large sales team or
   Helps managers focus their energy on the critical moments—the real “game-time” swings—not the practice sessions in the batting cage.
 Agentforce Sales Coach provides which of these to a sales team?
   Deal-specific, personalized feedback to sales reps
+===
+
+Agentforce on the Salesforce Mobile App: Quick Look
+===
+Save Time with Agentforce on the Salesforce Mobile App
+In iOS it supports shortcut, widget, lock screen shortcut, and via Siri
 ===
 
