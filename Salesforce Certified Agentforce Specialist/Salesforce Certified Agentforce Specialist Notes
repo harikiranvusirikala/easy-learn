@@ -558,3 +558,23 @@ The data library uses grounding with retrieval augmented generation (RAG) to ind
 Data 360 needs to be activated before setting up a Data Library.
 ===
 
+Agentforce for Sales: Quick Look
+===
+Agentforce for Sales Development (SDR) - Ideal for companies with high-volume lead generation and those who want to increase the productivity of their sales team.
+  Ensures every lead gets attention.
+  Automates various sales development tasks to help sellers focus on building customer relationships.
+  Interprets and processes information to answer questions and book meetings.
+  Passes off leads to the sales rep.
+Agentforce SDR Agent is grounded in what three components?
+  A company’s sales, product, and customer data
+
+
+Agentforce for Sales Coaching - Ideal for the manager with a large sales team or very little time for coaching sales reps.
+  Allows teams to scale coaching by giving every seller a dedicated coach.
+  Facilitates role plays tailored to specific deals and provides personalized, objective feedback after each session.
+  Allows sellers to practice pitching, handling objections, or negotiating before meeting real customers—without consuming precious manager time.
+  Helps managers focus their energy on the critical moments—the real “game-time” swings—not the practice sessions in the batting cage.
+Agentforce Sales Coach provides which of these to a sales team?
+  Deal-specific, personalized feedback to sales reps
+===
+
