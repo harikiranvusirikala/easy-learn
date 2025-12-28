@@ -507,3 +507,54 @@ Options in Left panel in Agent Builder
   Checklist: A step-by-step agent readiness checklist so you can make sure your agent is ready to deploy.
 ===
 
+Agentforce for Service
+===
+Key Benefits of Agentforce for Service
+  Responds 24/7
+  Replies naturally
+  Adds clarity
+  Handoffs to humans
+  Deploys quickly
+  Grounded in trusted data
+
+Differences between Agentforce for Service and Einstein Bots
+
+Types of Agentforce Agents
+  Service Agent - Resolves customer cases autonomously across channels 24/7 with natural responses.
+  Service Planner - Effectively helps your service reps resolve cases faster with concise case summaries and detailed, step-by-step resolution guidance.
+  SDR - Helps sellers automate pipeline 24/7 by qualifying inbound leads and booking meetings for sellers.
+  Sales Coach - Gives every seller a dedicated AI coach through on-demand, realistic role-plays tailored to each deal and personalized feedback.
+  Employee Agent - Customizable to meet the specific needs of your company and employees to help them become more productive.
+
+Standard actions included might be considered private actions, potentially needing additional configuration per your security standards to function correctly.
+
+Three key foundations of Agentforce for Service
+  Topics
+  Actions
+    Standard actions included might be considered private actions, potentially needing additional configuration per your security standards to function correctly.
+
+    An agent action can be created manually from an Apex class, a flow, or a prompt template.
+    Apex: An action that uses Apex can call classes and variables, enabling it to interact with third-party APIs or external applications. Apex is ideal for handling complex logic or enforcing intricate business rules.
+    Flows: are used to create, update, delete, and retrieve records. Flow Builder enables automation of processes and actions within specific topics. Existing flows can also be referenced by agent actions.
+    Prompt templates: can be invoked as Agentforce actions to help agents handle queries such as knowledge search, classification, and more. A prompt template directs the LLM on what and how to respond, including the ability to choose your own model. Similar to flows, Agentforce can employ prebuilt prompt templates.
+  Instructions
+
+Actions/tasks that can be considered private, such as updating personal appointment details, making purchases, or requesting services on a support contract, require further configuration before the agent can be deployed.
+
+Use cases for standard topics and actions
+
+Custom Topics and Actions - if more personalized approach is needed to engage with customers, complete tasks, and deliver responses that perfectly match brand and tone.
+Use cases for custom topics and actions
+
+Agentforce Data Library
+Adding an Agentforce Data Library enhances accuracy and builds customer trust in the responses provided.
+The Data Library supports both Knowledge articles (records and fields) uploaded files, web search, and custom retrievers.
+
+Agentforce harnesses the power of large language models (LLMs) to process unstructured data, supported by the Agentforce Data Library. Unstructured data often includes chat transcripts, PDFs, audio and video files, legal documents, and large text files like books.
+In Salesforce, this type of data can be sourced from Knowledge articles or PDF attachments when integrating an Agentforce Data Library.
+
+The data library uses grounding with retrieval augmented generation (RAG) to index Knowledge articles and attachments, ensuring it retrieves the most relevant and up-to-date information. When a data library is added in Agentforce, Salesforce automatically builds a RAG-powered solution to retrieve unstructured (and structured data) from Knowledge articles and PDFs. With this indexed data, Einstein can quickly fact-check responses against specific policies and information.
+
+Data 360 needs to be activated before setting up a Data Library.
+===
+
