@@ -588,3 +588,20 @@ Save Time with Agentforce on the Salesforce Mobile App
 In iOS it supports shortcut, widget, lock screen shortcut, and via Siri
 ===
 
+Quick Start: Build a Service Agent with Agentforce
+===
+In this project, you're building an agent that can’t transfer to a live representative. However, it’s best practice to always set up the Escalation topic so agents can transfer conversations they can’t resolve to a live representative.
+
+It’s not recommended to use the standard query and summarization actions with a public-facing agent, so instead use custom actions to interact with the data.
+
+Objectives
+  Create a service agent through guided setup.
+  Associate topics and actions to the service agent.
+  Build custom actions with flows.
+  Update an existing deployment flow.
+===
+
+
+Keyword Search: Use for exact matches and domain-specific vocabulary.
+Vector Search: Use for semantic and context-driven queries.
+Hybrid Search: Use for scenarios requiring both precision and semantic understanding.
