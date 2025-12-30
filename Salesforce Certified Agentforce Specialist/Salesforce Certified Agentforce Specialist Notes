@@ -601,6 +601,35 @@ Objectives
   Update an existing deployment flow.
 ===
 
+Connect Data 360 to Agentforce
+===
+Salesforce Data Cloud: Quick Look
+- https://trailhead.salesforce.com/content/learn/modules/salesforce-genie-quick-look
+==
+Unify Your Enterprise Data
+Harness the Power of Metadata
+Drive AI Results from Your Data
+
+Data 360’s real-time data enables more powerful automation with Flow, and more intelligence with Einstein, all built on the trusted infrastructure of Hyperforce.
+
+Every business/industry can power real-time, intelligent, automated experience, driving loyality while saving costs and increasing ROI.
+==
+
+Data stream, a fundamental part of Data 360 administration, describe where to find data from within a given connection.
+
+Each data stream creates a related Data Lake Object (DLO), which is a storage container for the data coming from the data stream source.
+
+Data Model Objects (DMOs), which describe how data is structured, sort of like metadata.
+So we can map the email column from the external guest data to the email address field in the DMO.
+
+Identity resolution, eg: match the Sofia that’s in Salesforce with the Sofia from Reserv-o-matic for one unified Sofia.
+
+Data Cloud Related List
+Lighting Record Pages
+
+Enhance Agentforce to Act on Data with Conversational Language
+===
+
 
 Keyword Search: Use for exact matches and domain-specific vocabulary.
 Vector Search: Use for semantic and context-driven queries.
