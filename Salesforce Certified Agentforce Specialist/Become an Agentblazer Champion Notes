@@ -631,6 +631,44 @@ Enhance Agentforce to Act on Data with Conversational Language
 ===
 
 
+
+
+
+
+
+Employee Agent
+Purpose: Designed for internal, employee-facing use within your Salesforce organization.
+Use Cases:
+  Internal support for employees.
+  Enhancing employee productivity.
+  Accessing and managing company-specific knowledge.
+When to Choose:
+  Building internal applications.
+  Deploying agents within your organization.
+  Needing access to internal Salesforce data.
+
+Service Agent
+Purpose: Customer-facing agents deployed via Enhanced Chat.
+Use Cases:
+  Customer support.
+  Public-facing chatbots.
+  External customer service.
+When to Choose:
+  Building customer-facing applications.
+  Using Enhanced Chat for customer interactions.
+  Requiring public-facing chatbot capabilities.
+
+Sales Agent
+Purpose: Focused on sales-related tasks and interactions.
+Use Cases:
+  Assisting sales teams with lead management.
+  Providing sales insights and recommendations.
+  Streamlining sales processes.
+When to Choose:
+  Supporting sales teams in their daily activities.
+  Enhancing customer engagement during the sales process. 2
+
+
 Keyword Search: Use for exact matches and domain-specific vocabulary.
 Vector Search: Use for semantic and context-driven queries.
 Hybrid Search: Use for scenarios requiring both precision and semantic understanding.
