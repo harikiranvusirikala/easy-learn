@@ -98,3 +98,29 @@ What's great about LoRA:
 It beats other adaptation methods like adapters and prefix-tuning.
 It's like getting great results with fewer moving parts.
 
+
+
+
+3. https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot-for-business/
+=====
+At the end of this module, you'll be able to:
+
+Understand the difference between GitHub Copilot Business versus GitHub Copilot Individuals.
+Learn about specific use cases for GitHub Copilot Business and hear how customers are enhancing their productivity.
+Review how to enable GitHub Copilot Business.
+
+Features in Copilot Business include:
+A more powerful AI model: New modeling algorithms improve the quality of code suggestions.
+AI-based security vulnerability filtering: GitHub Copilot Business automatically blocks common insecure code suggestions by targeting issues such as hard-coded credentials, SQL injections, and path injections.
+VPN proxy support: GitHub Copilot works with VPNs including self-signed certificates, allowing developers to use it in any working environment.
+Simple sign-up: Any company can quickly purchase Copilot Business licenses online and easily assign users, even if they don't use the GitHub platform for their source code.
+
+Exclude specific files from GitHub Copilot
+Organization-wide policy management
+Audit logs
+Increase GitHub Models rate limits
+
+Developers code faster
+Developers stay in the flow longer
+
+
