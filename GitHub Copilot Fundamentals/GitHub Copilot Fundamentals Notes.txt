@@ -49,3 +49,52 @@ This is a specialized chat participant that will explore the project repository 
 There several other ways to supplement Copilot's knowledge and capabilities like chat participants, chat variables, slash commands, and MCP tools.
 
 
+
+
+
+2. https://learn.microsoft.com/en-us/training/modules/introduction-prompt-engineering-with-github-copilot/
+=====
+In this module, you'll learn about:
+
+Prompt engineering principles, best practices, and how GitHub Copilot learns from your prompts to provide context-aware responses that accelerate development cycles.
+Advanced prompting strategies including role prompting and chat history management to get better results with fewer iterations.
+The underlying flow of how GitHub Copilot processes user prompts to generate responses or code suggestions efficiently.
+The data flow for code suggestions and chat in GitHub Copilot.
+LLMs (Large Language Models) and their role in GitHub Copilot and prompting.
+How to craft effective prompts that optimize GitHub Copilot's performance, ensuring precision and relevance in every code suggestion while minimizing revision cycles.
+The intricate relationship between prompts and Copilot's responses to streamline your development workflow.
+How Copilot handles data from prompts in different situations, including secure transmission and content filtering.
+
+Principles of prompt engineering
+Single: Always focus your prompt on a single, well-defined task or question. This clarity is crucial for eliciting accurate and useful responses from Copilot.
+Specific: Ensure that your instructions are explicit and detailed. Specificity leads to more applicable and precise code suggestions.
+Short: While being specific, keep prompts concise and to the point. This balance ensures clarity without overloading Copilot or complicating the interaction.
+Surround: Utilize descriptive filenames and keep related files open. This provides Copilot with rich context, leading to more tailored code suggestions.
+
+Role prompting for specialized tasks
+
+Inbound flow:
+Secure prompt transmission and context gathering
+Proxy filter
+Toxicity filtering
+Code generation with LLM
+
+Outbound Flow:
+Post-processing and response validation
+Suggestion delivery and feedback loop initiation
+Repeat for subsequent prompts
+
+Large Language Models (LLMs) are artificial intelligence models designed and trained to understand, generate, and manipulate human language. These models are ingrained with the capability to handle a broad range of tasks involving text, thanks to the extensive amount of text data they're trained on.
+
+Fine-tuning LLMs
+
+LoRA (Low-Rank Adaptation) fine-tuning is used to make large pretrained language models (LLMs) work better for specific tasks without redoing all the training.
+
+Here's how LoRA works:
+LoRA adds smaller trainable parts to each layer of the pretrained model, instead of changing everything.
+The original model remains the same, which saves time and resources.
+
+What's great about LoRA:
+It beats other adaptation methods like adapters and prefix-tuning.
+It's like getting great results with fewer moving parts.
+
