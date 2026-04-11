@@ -124,3 +124,36 @@ Developers code faster
 Developers stay in the flow longer
 
 
+
+
+4. https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot-enterprise/
+=====
+By the end of this module, you'll be able to:
+
+Understand what the GitHub Copilot Enterprise plan is.
+Understand the differences between GitHub Copilot Enterprise versus Business versus Individual.
+Learn about specific use cases for GitHub Copilot Enterprise and hear how customers are enhancing their productivity.
+Review how to enable GitHub Copilot Enterprise.
+
+New features that come with GitHub Copilot Enterprise:
+Knowledge bases and custom models
+Chat customization to your codebase
+Pull request summaries
+Documentation search and summaries using docsets
+Code review
+
+
+							  GitHub Copilot Enterprise 	Business	Pro & Free
+Collaborative Chat within pull requests					✓	✕	✕
+Pull request summaries								✓	✕	✕
+Copilot docset management								✓	✕	✕
+Copilot code review									✓	✕	✕
+Zero data retention for code snippets and usage telemetry	✓	✓	✕
+Organization-wide policy management						✓	✓	✕
+Integration with security tools							✓	Limited	✕
+Audit logging and reporting							✓	Limited	✕
+VPN proxy support via self-signed certificates				✓	✓	✕
+Lives on Github.com									✓	✓	✓
+Plugs right into your editor							✓	✓	✓
+
+
