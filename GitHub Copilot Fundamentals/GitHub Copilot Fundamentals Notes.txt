@@ -1,0 +1,51 @@
+https://learn.github.com/certification/COPILOT
+
+Has Domain weightage and topics in each Domain
+
+Profile
+https://learn.microsoft.com/en-us/users/harikiranvusirikala/
+
+
+
+1. https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/
+=====
+
+Features & Subscription plans
+- https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/2-github-copilot-your-ai-pair-programmer
+
+The GitHub Copilot Free tier includes 2000 code completions per month, 50 chat requests per month, and access to both GPT-4o and Claude 3.5 Sonnet models.
+
+
+Ways to Interact with Copilot
+- https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/3-interacting-with-copilot
+
+Here are some common slash commands and their usage:
+/explain - Provides an explanation of the selected code.
+/suggest - Offers code suggestions based on the current context.
+/tests - Generates unit tests for the selected function or class.
+/comment - Converts comments into code snippets.
+
+https://marketplace.visualstudio.com/items?itemName=GitHub.copilot -> Install
+(Released on	29/06/2021) - Depricated as GitHub Copilot Chat extension was released
+
+https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat -> Install
+(Released on	27/04/2023)
+
+
+You can find the log files by opening the command palette(Cmd+Shift+P) and then entering either Developer: Open Log File or Developer: Open Extensions Logs Folder.
+
+If you encounter errors and nothing is in the logs, you might try to view the logs from the process that's running VS Code and the extension. This process enables you to view the Electron logs. You can find these logs by selecting Help > Toggle Developer Tools in VS Code.
+
+
+Features
+https://docs.github.com/en/copilot/get-started/features
+
+
+https://github.com/hari2/skills-getting-started-with-github-copilot/issues/1
+
+@workspace
+This is a specialized chat participant that will explore the project repository and try to include relevant additional context.
+
+There several other ways to supplement Copilot's knowledge and capabilities like chat participants, chat variables, slash commands, and MCP tools.
+
+
