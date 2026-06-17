@@ -1,10 +1,16 @@
+https://learn.microsoft.com/en-us/credentials/certifications/github-copilot/?practice-assessment-type=certification
+
+Practice Assessment - https://learn.microsoft.com/en-us/credentials/certifications/github-copilot/practice/assessment?assessmentId=218035372&assessment-type=practice&practice-assessment-type=certification
+
 https://learn.github.com/certification/COPILOT
+
 
 Has Domain weightage and topics in each Domain
 
 Profile
 https://learn.microsoft.com/en-us/users/harikiranvusirikala/
 
+GitHub Copilot Fundamentals- Understand the AI pair programmer
 
 
 1. https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/
@@ -155,5 +161,98 @@ Audit logging and reporting							✓	Limited	✕
 VPN proxy support via self-signed certificates				✓	✓	✕
 Lives on Github.com									✓	✓	✓
 Plugs right into your editor							✓	✓	✓
+
+
+
+
+5. https://learn.microsoft.com/en-us/training/modules/introduction-copilot-javascript/
+=====
+By the end of this module, you're able to:
+
+Enable the GitHub Copilot extension in Visual Studio Code.
+Craft prompts that can generate useful suggestions from GitHub Copilot.
+Use GitHub Copilot to improve a JavaScript project.
+
+GitHub Codespaces a hosted developer environment operating in the cloud that can be run with Visual Studio Code. You can customize the development experience for any development project on GitHub, preinstalling dependencies, libraries, and even Visual Studio Code extensions and settings.
+
+
+By the conclusion of this module, you'll acquire the skills to:
+
+Configure a GitHub repository in Codespaces and install GitHub Copilot extension.
+Crafted prompts to generate suggestions from GitHub Copilot
+Applied GitHub Copilot to improve your projects.
+
+GitHub Copilot offers a free tier with 2,000 code autocompletes and 50 chat messages per month.
+
+https://codespaces.new/MicrosoftDocs/mslearn-copilot-codespaces-javascript
+Delete at https://github.com/codespaces
+
+All GitHub accounts can use Codespaces for up to 60 hours free each month with two core instances. For more information, see GitHub Codespaces monthly included storage and core hours (https://docs.github.com/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces#monthly-included-storage-and-core-hours-for-personal-accounts).
+
+GitHub Copilot uses open files in your text editor as additional context. This is helpful because it provides useful information in addition to the prompt or code you may be writing. If you need GitHub Copilot to provide suggestions based on other files you can open them when using GitHub Copilot Chat.
+
+
+
+6. https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/
+=====
+By the end of this module, you're able to:
+
+Enable the GitHub Copilot extension in Visual Studio Code.
+Craft prompts that can generate useful suggestions from GitHub Copilot.
+Use GitHub Copilot to improve a Python project.
+
+https://codespaces.new/MicrosoftDocs/mslearn-copilot-codespaces-python
+
+
+
+7. https://learn.microsoft.com/en-us/training/modules/advanced-github-copilot/
+=====
+By the end of this module, you'll be able to:
+
+Apply slash commands to make code changes
+Interact with GitHub Copilot using the Chat feature.
+Ask questions about your project using an agent.
+
+Chatting with GitHub Copilot
+GitHub Copilot allows you to have an interactive discussion using the chat feature. In Visual Studio Code, you can click the chat icon on the left sidebar, which opens the chat interface in a dedicated pane.
+
+Using inline chat
+Access the inline chat by using Ctrl+i on Windows or Command+i on a Mac. One of the benefits of using the inline chat is that you don't have to switch context by going to a different pane. The suggestions and interactions happen closer to the code.
+
+Slash commands
+If you type a forward slash in the chat pane or inline chat, you should see a drop-down menu with all the slash commands available. For example, the /tests slash command helps you write tests, while the /docs command is intended for writing documentation.
+
+Agents
+Visual Studio Code has a feature called agents that allows you to interact with GitHub Copilot. These agents allow you to ask questions using a specific context. For example the @terminal agent helps you chat with GitHub Copilot to interact with the terminal.
+
+https://codespaces.new/MicrosoftDocs/mslearn-advanced-copilot
+
+Implicit prompts
+Slash commands can be used to both in the inline chat and the chat interface. In addition to the /fix command, here are some of the most useful slash commands you can use in Copilot chat:
+
+/doc: Adds comments to the specified or selected code.
+/explain: Gets explanations about the code.
+/generate: Generates code to answer the specified question.
+/help: Gets help on how to use Copilot chat.
+/optimize: Analyzes and improves the runtime of the selected code.
+/tests: Creates unit tests for the selected code.
+
+Using slash commands allows for easier interaction with GitHub Copilot and helps you get better responses without having to write longer prompts.
+
+Selective context
+Example: @terminal How do I fix the error message I'm seeing?
+
+/tests help me to create a new test for this route that uses Spain as the country/region.
+
+Ghost text in GitHub Copilot are suggestions that appear in your text editor as you type.
+
+Slash commands are shortcuts to quickly solve common development tasks within the chat or inline pane.
+
+Implicit prompts help get better responses from GitHub Copilot without writing longer prompts, making it easier to interact and fix code issues.
+
+GitHub Copilot Enterprise has an extra layer of personalization, with organizations utilizing their own codebase to train GitHub Copilot. 
+
+Organizations manage and utilize docsets (now formally known as knowledge bases) within GitHub Copilot Enterprise by using them to create custom collections of internal code and documentation
+
 
 
