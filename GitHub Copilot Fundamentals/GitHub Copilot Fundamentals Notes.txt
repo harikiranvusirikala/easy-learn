@@ -11,6 +11,7 @@ Profile
 https://learn.microsoft.com/en-us/users/harikiranvusirikala/
 
 GitHub Copilot Fundamentals- Understand the AI pair programmer
+https://lex.infosysapps.com/web/en/app/toc/lex_auth_014140355317399552671/overview
 
 
 1. https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/
